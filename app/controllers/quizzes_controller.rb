@@ -100,6 +100,7 @@ class QuizzesController < ApplicationController
     elsif session[:number] == 18
       @solution = Solution.find_by_code('s06')
     end
+    @solution = Solution.find_by_code('s01')
     session[:number] = 1
   end
 
