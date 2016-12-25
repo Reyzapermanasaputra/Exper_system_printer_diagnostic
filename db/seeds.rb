@@ -24,7 +24,7 @@ Indication.first_or_create(
     {code: 'P15', name: 'printer hanya mencetak satu kali'}
   ]) 
 
-Solution.first_or_reate(
+Solution.first_or_create(
   [
     {code: 'S01', name: 'Lepas cartridge dengan hati-hati untuk mengecek apakah tinta sudah habis atau belum. Setelah itu lakukan pembersihan pada mat head nya dengan menggunakan cairan pembersih tinta'},
     {code: 'S02', name: 'Membatasi tebal tumpukan kertas sesuai dengan kapasitas yang didukung oleh printer. Sebelum
